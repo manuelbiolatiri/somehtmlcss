@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lato';
+}
+
+.navbar-brand{
+    font-size: 50px;
+    font-family:'Pacifico' ;
+    color: lightcoral;
+}
+.navbar-brand:hover{
+    color:rgb(126, 39, 177);
+}
+
+.nav-link{
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Roboto Condensed';
+}
+.nav-link:hover{
+    color:rgb(126, 39, 177);
+}
+.active {
+    color:rgb(126, 39, 177) ;
+}
+
+.menu-right-btn {
+    background-color:transparent ;
+    padding: 13px  46px;
+    margin-left: 4%;
+    font-size: 20px;
+    transition-property: all 300ms ease-in;
+}
+
+.menu-right-btn:hover {
+    background-color: rgb(126, 39, 177);
+    color: white;
+}
+
+.site-content {
+    background-image: url('img/nature12.jpg');
+    background-size: cover;
+    background-position: fixed;
+}
+
+.site-title{
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+    text-align: center;
+}
+.site-title, .site-desc{
+    font-family: 'Righteous';
+    color:whitesmoke;
+}
+
+.site-desc{
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Pacifico';
+}
+
+.site-btn1{
+    padding: 15px 30px;
+    margin-left: 25%;
+    margin-right: 10%;
+    font-size: 18px;
+}
+
+.site-btn2{
+    padding:15px 30px ;
+    margin-right: 25%;
+    font-size: 18px;
+    background-color: white;
+}
+
+.site-btn1, .site-btn2{
+    margin-bottom: 15%;
+    margin-top: 5%;
+}
+
+.heading1{
+    margin-top: 8%;
+    margin-bottom: 2%;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.heading1 , .heading2{
+    font-family: 'Righteous';
+}
+
+.heading2{
+    font-size: 50px;
+}
+.para1{
+    font-size: 15px;
+    font-family: 'Pacifico';
+}
+.sub-heading{
+    margin-right: 8%;
+    margin-bottom: 2%;
+    font-size: 50px;
+    font-family: 'Righteous';
+    text-align: center;
+    margin-left: 7%;
+}
+
+.card-img-top{
+    height: 350px;
+}
+.card-title{
+    height: 3px;
+    font-size: 20px;
+    margin-top: 0%;
+    padding: 2px;
+}
+.sub-heading2{
+    margin-top: 2%;
+    font-size: 60px;
+    font-family: 'Righteous';
+    margin-bottom: 2%;
+}
+.row{
+    margin-bottom: 3%;
+}
+.team {
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+    justify-content: center;
+}
+blockquote .fas{
+    color:rgb(126, 39, 177);
+    margin: 1rem;
+}
+.team-hr{
+    border-top: .05rem solid rgb(126, 39, 177);
+}
+blockquote{
+    height: 50px;
+}
+.heading{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Righteous';
+}
+.m-4{
+    font-size: 30px;
+    font-family: 'Righteous';
+    margin-bottom: 5%;
+}
+.social i{
+    font-size: 20px;
+    color:rgb(126, 39, 177);
+}
+.fas{
+    color:rgb(126, 39, 177);
+
+}
+.heading4{
+    font-size: 30px;
+}
+.section2 .jumbotron{
+    padding-left: 10%;
+    padding-right: 8%;
+}
+.section3 .row{
+    margin: 10% 0%;
+}
+.m-2{
+    font-size: 20px;
+}
+.section4 .form-control{
+    height: 42px;
+}
+.social{
+    margin-top: 10%;
+}
+
+@media screen and (max-width:992px) {
+    .site-content .site-title{
+        padding: 5% 10%;
+    }
+   
+    .card-img-top{
+        height: 300px;
+    }
+    .card-title{
+        font-size: 15px;
+    }
+    .section2 .jumbotron {
+        padding-bottom: 15%;
+    }
+    .section3 .row{
+        margin: 10% 5%;
+    }
+    .row{
+        margin-left: -2%;
+        margin-right: -2%;
+    }
+    .team{
+        height:150px ;
+    }  
+    .team-hr{
+        border-top: .05rem solid rgb(126, 39, 177);
+    }  
+}
+
+@media screen and (max-width:768px) {
+    .site-content .site-title{
+        padding: 5% 10%;
+    }
+    .site-title{
+        padding-left: 20%;
+    }
+    .card-img-top{
+        height: 300px;
+    }
+    .card-title{
+        font-size: 15px;
+    }
+    .row{
+        margin-left: -3%;
+        margin-right: -3%;
+    }
+    .team{
+        height:150px ;
+    }  
+    blockquote{
+        height: 50px;
+        width: 100%;
+    }  
+    .team-hr{
+        border-top: .05rem solid rgb(126, 39, 177);
+    }
+    .section2 .jumbotron{
+        padding-bottom: 30%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .section3 .fas{
+        font-size: 20px;
+    }
+    .heading4{
+        font-size: 25px;
+    }
+    .section2 .row{
+        margin: 3%;
+    }
+    .section2 .team{
+        width: 100%;
+        height: 150px;
+    }
+    .section2 .col-md-4{
+        padding: 0%;
+    }
+    .section3 .row{
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .site-content .site-title{
+        font-size: 30px;
+        padding-left: 15%;
+    }
+    .site-desc, .para1{
+        font-size: 14px;
+    
+    }
+   .site-btn2{
+        display: none;
+    }
+    
+    .site-btn1{
+        margin-left: 20%;
+        font-size: 15px;
+        padding: 12px 20px;
+        }
+    .navbar-brand{
+        font-size: 40px;
+    }
+    .heading1, .heading{
+        font-size: 40px;
+
+    }
+    .heading2{
+        font-size: 30px;
+    }
+    .sub-heading, .sub-heading2{
+        font-size: 30px;
+    }
+    .row .col-md-4 .card{
+        margin: 3% ;
+    }
+    .section2 .row{
+        margin: 3%;
+    }
+    .card{
+        margin-bottom: 5%;
+    }
+    .card-title{
+        font-size: 18px;
+    }
+   .section2 .team{
+        width: 50%;
+        height: 150px;
+    }
+    .section2 .bot{
+        margin-top: 50%;
+    }
+    .team-hr{
+        border-top: .05rem solid rgb(126, 39, 177);
+    }
+    .row .col-md-4 .col-md-12{
+        margin: 2% 3%;
+        padding: 2% 5%;
+    }
+    .section3 .col-md-6{
+        margin: 5%;
+    }
+    .section3 .fas{
+        font-size: 30px;
+    }
+    .section2 .jumbotron{
+        padding-bottom: 40%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .heading4{
+        font-size: 20px;
+    }
+    .section4 .btn{
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width:480px){
+    .site-content .site-title{
+        font-size: 30px;
+        padding-left: 15%;
+    }
+    .site-desc, .para1{
+        font-size: 14px;
+    
+    }
+   .site-btn2{
+        display: none;
+    }
+    
+    .site-btn1{
+        margin-left: 15%;
+        font-size: 15px;
+        padding: 12px 20px;
+    }
+    .navbar-brand{
+        font-size: 40px;
+    }
+    .heading1, .heading{
+        font-size: 40px;
+
+    }
+    .heading2{
+        font-size: 30px;
+    }
+    .heading4{
+        font-size: 25px;
+    }
+    .sub-heading, .sub-heading2{
+        font-size: 30px;
+    }
+    .row .col-md-4 .card{
+        margin: 3% ;
+    }
+    .section2 .row{
+        margin: 3%;
+    }
+    .card{
+        margin-bottom: 5%;
+    }
+    .card-title{
+        font-size: 18px;
+    }
+   .section2 .team{
+        width: 80%;
+        height: 150px;
+    }
+    .bot{
+        margin-top: 20%;
+    }
+    .team-hr{
+        border-top: .05rem solid rgb(126, 39, 177);
+    }
+    .row .col-md-4 .col-md-12{
+        margin: 2% 3%;
+        padding: 2% 5%;
+    }
+    .section3 .col-md-6{
+        margin: 7%;
+    }
+    .section3 .fas{
+        font-size: 30px;
+    }
+    .section2 .jumbotron{
+        padding-bottom: 20%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .section4 .btn{
+        margin-top: 5%;
+    }
+    
+}
+
